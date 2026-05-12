@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trivago 2026 行銷漏斗全攻略</title>
+    <style>
+        @page { size: A4; margin: 10mm; }
+        *, *::before, *::after { box-sizing: border-box; }
+        body {
+            font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+        }
+        .container { 
+            width: 100%; 
+            max-width: 900px; 
+            margin: 20px auto; 
+            background: #fff; 
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border-radius: 12px;
+        }
+        
+        /* Headers */
+        h1 { color: #007faf; font-size: 26pt; text-align: center; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; border-bottom: 2px solid #ff7d00; padding-bottom: 15px; }
+        h2 { color: #ffffff; background: linear-gradient(90deg, #007faf, #005f82); font-size: 18pt; padding: 12px 20px; margin-top: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h3 { color: #ff7d00; font-size: 16pt; margin-top: 25px; display: flex; align-items: center; }
+        h3::before { content: '◆'; margin-right: 10px; font-size: 12pt; }
+
+        /* Sections */
+        .content-box { border: 1px solid #e2e8f0; padding: 25px; margin: 20px 0; background-color: #fdfdfd; border-radius: 10px; }
+        .label { font-weight: bold; color: #007faf; display: block; margin-bottom: 10px; font-size: 13pt; }
+        
+        /* 佈局樣式 */
+        .sales-categories { display: grid; grid-template-columns: 1fr; gap: 20px; margin: 20px 0; }
+        .leisure-section { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 25px 0; }
+        .leisure-card, .sales-card { background: #fff; border: 1px solid #edf2f7; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .leisure-title, .sales-title { font-weight: bold; color: #ff7d00; margin-bottom: 10px; font-size: 12pt; }
+
+        /* 互動區域 */
+        .optin-zone {
+            background: #f0f7fa;
+            border: 2px solid #007faf;
+            padding: 35px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        .input-group { display: flex; max-width: 550px; margin: 20px auto; gap: 0; }
+        .input-field { flex: 1; padding: 15px 20px; border: 1px solid #cbd5e1; border-radius: 50px 0 0 50px; font-size: 11pt; outline: none; }
+        .btn-submit { background-color: #ff7d00; color: white; padding: 15px 30px; border: none; border-radius: 0 50px 50px 0; font-weight: bold; font-size: 11pt; cursor: pointer; transition: 0.3s; text-decoration: none; display: inline-block; }
+        .btn-submit:hover { background-color: #e66f00; }
+        
+        /* 銷售頁專用按鈕 */
+        .btn-trivago { background-color: #007faf; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 15px; transition: 0.3s; }
+        .btn-trivago:hover { background-color: #005f82; transform: translateY(-2px); }
+
+        /* 文案塊 */
+        .copywriting-block { background-color: #ffffff; border-left: 5px solid #ff7d00; padding: 20px; margin: 15px 0; font-style: italic; color: #475569; box-shadow: inset 0 0 10px rgba(0,0,0,0.02); }
+        
+        .footer { text-align: center; margin-top: 50px; color: #94a3b8; font-size: 10pt; }
+        a { text-decoration: none; }
+
+        /* Mobile Optimization */
+        @media (max-width: 600px) {
+            .leisure-section { grid-template-columns: 1fr; }
+            .input-group { flex-direction: column; }
+            .input-field { border-radius: 25px; margin-bottom: 10px; width: 100%; }
+            .btn-submit { border-radius: 25px; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>trivago 飯店比價全漏斗規劃手冊</h1>
+    <p class="subtitle"><strong>「上架完成版」：名單蒐集、即時導流與自動回覆序列</strong></p>
+
+    <h2 id="ebook">第一部分：免費贈品電子書詳細文案</h2>
+    <div class="content-box">
+        <p class="label">書名：《2026 飯店比價黑客：旅遊達人不願公開的 7 個省錢神技》</p>
+        <div class="copywriting-block">
+            <strong>【前言：為什麼你總是買貴？】</strong>
+            大多數人訂房時，只是打開一個 App 看看評價就下單。但你不知道的是，飯店價格會根據你的瀏覽裝置、地理位置甚至搜尋次數而波動。這份指南將教你如何反向操作。
+
+            <strong>【技巧一：破解緊迫感行銷】</strong>
+            當你看到「剩餘 1 間房」時，請冷靜。打開 trivago 查看價格趨勢圖，如果曲線正處於高點，這間「最後一間房」可能明天就會降價。
+
+            <strong>【技巧二：無痕搜尋與 IP 隱藏】</strong>
+            我們將教你如何正確清除 Cookie。飯店會追蹤你的需求，當你越想住，價格就越硬。
+        </div>
+
+        <div class="optin-zone" style="margin-top: 40px; background: #fffaf5; border-color: #ff7d00;">
+            <h4 style="color: #ff7d00; margin-bottom: 10px;">🎁 立即下載完整指南 PDF</h4>
+            <p style="color: #666; margin-bottom: 20px;">輸入 Email，我們將把這份省錢指南立即發送到您的電子信箱。</p>
+            <form onsubmit="alert('感謝領取！指南已發送至您的信箱。'); return false;">
+                <div class="input-group">
+                    <input type="email" class="input-field" placeholder="請輸入領取指南的信箱" required>
+                    <button type="submit" class="btn-submit">立即免費領取</button>
+                </div>
+            </form>
+            <p style="font-size: 9pt; color: #999; margin-top: 15px;">※ 內含 2026 飯店比價黑客 7 大神技完整圖解與實測數據</p>
+        </div>
+    </div>
+
+    <h2 id="optin">第二部分：名單收集頁 (休閒三部曲)</h2>
+    <div class="content-box">
+        <p class="label">主標題：把比價的體力活交給我們，把美好的心情留給旅行。</p>
+        
+        <div class="leisure-section">
+            <div class="leisure-card">
+                <div class="leisure-title">🏝️ 休閒心理：卸下壓力</div>
+                <p style="font-size: 10pt;">不再為了那幾百塊的價差在五個 App 間切換到頭痛，找回規劃行程的純粹樂趣。</p>
+            </div>
+            <div class="leisure-card">
+                <div class="leisure-title">🍹 休閒場景：隨處比價</div>
+                <p style="font-size: 10pt;">無論在咖啡館或沙發上，輸入目的地，trivago 為您掃描全球，讓比價像點餐一樣簡單。</p>
+            </div>
+            <div class="leisure-card">
+                <div class="leisure-title">💆 休閒回報：升級享受</div>
+                <p style="font-size: 10pt;">省下的錢足夠讓您在度假村多點一瓶美酒或預約一場 SPA，這才是真正的回報。</p>
+            </div>
+        </div>
+
+        <div class="optin-zone">
+            <h4>立即領取《2026 避坑指南》PDF</h4>
+            <p>輸入 Email，開啟一場「不費力」的休閒比價體驗</p>
+            <form action="#autoresponder">
+                <div class="input-group">
+                    <input type="email" class="input-field" placeholder="請輸入您的 Email 地址" required>
+                    <button type="submit" class="btn-submit">解鎖省錢密技</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <h2 id="autoresponder">第三部分：全系列自動回覆信文案</h2>
+    <div class="content-box">
+        <p class="label">信件 1：即時發送 (贈品交付)</p>
+        <div class="copywriting-block">
+            主旨：🎁 成功領取！您的《2026 飯店比價黑客指南》已送達<br><br>
+            嗨 [Name]，附件是您的電子書。我們知道您想要的是放鬆。除了指南，我還為您準備了「今日低價飯店清單」。這是一個「只看結果，不比價」的快速通道。
+        </div>
+
+        <p class="label">信件 2：第 1 天 (深化信任與教育)</p>
+        <div class="copywriting-block">
+            主旨：🤔 為什麼同一間房，昨天的價格跟今天不一樣？<br><br>
+            嘿 [Name]，昨天讀了指南嗎？其中「技巧二」提到的無痕搜尋非常關鍵。飯店會偵測您的「渴望」。今天試著打開 trivago，讓系統幫您盯盤。
+        </div>
+
+        <p class="label">信件 3：第 3 天 (解決痛點與展示多樣性)</p>
+        <div class="copywriting-block">
+            主旨：🏨 飯店 vs 民宿？別讓選擇困難症毀了您的下午茶<br><br>
+            [Name]，旅行最怕挑到照片很美、實體很慘的住宿。trivago 匯整了 1.7 億則真實評價，一鍵篩選功能幫您省下 2 小時的研究時間。
+        </div>
+
+        <p class="label">信件 4：第 7 天 (最後促成行動)</p>
+        <div class="copywriting-block">
+            主旨：⏳ 最後提醒：您的下一場夢幻假期，不該超支預算<br><br>
+            [Name]，預算省下來，回憶才會多出來。現在就去 trivago 輸入目的地，看看省下的房價能幫您多買多少戰利品！
+        </div>
+    </div>
+
+    <h2 id="sales">第四部分：高轉換成交頁 (三類精準策略)</h2>
+    <div class="content-box">
+        <div class="sales-categories">
+            <div class="sales-card">
+                <div class="sales-title">💰 類別一：極致省錢型 (針對預算敏感者)</div>
+                <div class="copywriting-block">同樣住五星級，為什麼多付 $2,000？trivago 抓取全網最低報價，我們不賣房，我們賣「最低價保證」。</div>
+                <p>● 訴求：價格對比、省下的具體金額、最高折扣標籤。</p>
+                <a href="https://www.trivago.com.tw" class="btn-trivago" target="_blank">🔍 搜尋全網最低價</a>
+            </div>
+            <div class="sales-card">
+                <div class="sales-title">👑 類別二：夢幻體驗型 (針對追求品質者)</div>
+                <div class="copywriting-block">您值得更好。用一樣的預算，從普通商旅升級到海景套房。精準鎖定隱藏在高 CP 值背後的奢華體驗。</div>
+                <p>● 訴求：高畫質美圖、用戶好評百分比、飯店設施亮點。</p>
+                <a href="https://www.trivago.com.tw" class="btn-trivago" target="_blank">✨ 探索頂級住宿</a>
+            </div>
+            <div class="sales-card">
+                <div class="sales-title">⚡ 類別三：極速決策型 (針對忙碌商務客)</div>
+                <div class="copywriting-block">別在網頁間迷路，30 秒找到落腳處。不需要當專家，我們幫您算好了。直接下訂，準時入住。</div>
+                <p>● 訴求：簡潔介面、地圖快速搜尋、一鍵下訂。</p>
+                <a href="https://www.trivago.com.tw" class="btn-trivago" target="_blank">🚀 30秒快速訂房</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="ads">第五部分：完整導流頁設計與文案</h2>
+    <div class="content-box">
+        <p class="label">導流頁標題 (Headline)</p>
+        <h3 style="margin-top: 0;">2026 訂房革命：不再為「浮動價格」交稅，找回您的度假主導權！</h3>
+        
+        <p class="label">副標題 (Sub-headline)</p>
+        <p>已有超過 100 萬名旅人透過這套系統，在同一間飯店省下平均 $1,200 - $3,500 元。您是下一個嗎？</p>
+
+        <p class="label">導流核心價值點 (Bullet Points)</p>
+        <ul style="padding-left: 20px;">
+            <li><strong>破解價格歧視：</strong> 揭秘網站如何根據您的手機型號調高房價。</li>
+            <li><strong>一鍵掃描全球：</strong> 同時對比上百個訂房平台的即時報價。</li>
+            <li><strong>100% 透明資訊：</strong> 看到的價格就是最終支付價。</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 30px; border-top: 1px dashed #ccc; padding-top: 20px;">
+            <p style="font-weight: bold; color: #ff7d00;">現在就出發？</p>
+            <a href="https://www.trivago.com.tw" class="btn-submit" style="border-radius: 50px; display: inline-block; padding: 15px 50px;" target="_blank">前往 trivago 旅遊網官網 →</a>
+            <br>
+            <a href="#optin" style="font-size: 10pt; color: #666; text-decoration: underline; display: inline-block; margin-top: 15px;">或是先領取《黑客指南》再出發</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 trivago 全自動化行銷漏斗規劃系統
+    </div>
+</div>
+
+</body>
+</html>
